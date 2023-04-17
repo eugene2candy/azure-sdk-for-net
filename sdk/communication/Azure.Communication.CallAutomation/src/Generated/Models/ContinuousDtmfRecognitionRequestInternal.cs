@@ -26,5 +26,7 @@ namespace Azure.Communication.CallAutomation
 
         /// <summary> Target participant of continuous DTMF tone recognition. </summary>
         public CommunicationIdentifierModel TargetParticipant { get; }
+        /// <summary> The value to identify context of the operation. </summary>
+        public string OperationContext { get; set; }
     }
 }
