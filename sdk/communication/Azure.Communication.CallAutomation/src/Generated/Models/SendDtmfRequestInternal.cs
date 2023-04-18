@@ -28,7 +28,7 @@ namespace Azure.Communication.CallAutomation
             TargetParticipant = targetParticipant;
             Tones = tones.ToList();
         }
-
+        
         /// <summary> Target participant of Send DTMF tone. </summary>
         public CommunicationIdentifierModel TargetParticipant { get; }
         /// <summary> The captured tones. </summary>
